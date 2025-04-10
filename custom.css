@@ -1,7 +1,7 @@
 div.newtheorem {
-    border-left: red 0.3em solid;
+    border-left: green 0.3em solid;
     padding: 1em 0 1em 1em;
-    background-color: rgba(255, 0, 0, 0.1);
+    background-color: rgba(0, 255, 0, 0.1);
     border-radius: 0 1em 0 0;
 }
 div.proof {
@@ -25,4 +25,14 @@ math {
 }
 img {
     max-width: 100%;
+}
+body {
+    max-width: 100ch;
+}
+div.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+div.flexbox * {
+    /* width: 50%; */
 }
